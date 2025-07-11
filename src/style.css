@@ -1,0 +1,87 @@
+:root {
+    --color-primary-1 : #2C3E50;
+    --color-primary-2 : #333333;
+    --section-color : 	#F7F9FB;
+    --color-btn-1 : #4A90E2;
+    --color-btn-2 : 	#357ABD;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url(https://img.freepik.com/free-vector/realistic-math-chalkboard-background_23-2148154591.jpg) no-repeat center/cover;
+    filter: blur(10px);
+    z-index: -1;
+  }
+  
+
+h2 {
+    text-align: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #d84e4e;
+   
+}
+
+.input {
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+
+.input:hover {
+    border-color: var(--color-btn-1);
+}
+
+.btn {
+    background-color: var(--color-btn-1);
+    color: #fff;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.btn:hover {
+background-color: var(--color-btn-2);
+}
+
+.btn-second {
+    background-color: var(--color-btn-1);
+    color: #fff;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.btn-second:hover {
+    background-color: var(--color-btn-2);
+}
