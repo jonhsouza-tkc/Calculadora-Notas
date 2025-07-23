@@ -1,4 +1,6 @@
 Calculadora de Notas
+
+
 Este projeto é um desafio de lógica de programação promovido pela #Trybe, com o principal objetivo de reforçar a base e exercitar a lógica de programação, que é fundamental no ambiente tech. 
 O desafio consiste em uma calculadora para calcular a média de notas inseridas pelo usuário e exibir se o estudante foi aprovado ou reprovado.
 
@@ -15,6 +17,7 @@ Como usar
 Clone este repositório para o seu ambiente local:
 
 git clone https://github.com/jonhsouza-tkc/Calculadora-Notas.git
+
 Abra o arquivo index.html no seu navegador.
 
 Insira as notas e clique no botão para ver o cálculo da média.
